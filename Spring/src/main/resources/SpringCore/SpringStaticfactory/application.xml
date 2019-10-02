@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="mg" class="SpringCore.SpringStaticfactory.EmployeeFactory"
+      factory-method="createEmployeeOfType">
+    <constructor-arg value="manager"/>
+</bean>
+    <bean id="dr" class="SpringCore.SpringStaticfactory.EmployeeFactory"
+          factory-method="createEmployeeOfType">
+        <constructor-arg value="director"/>
+    </bean>
+</beans>

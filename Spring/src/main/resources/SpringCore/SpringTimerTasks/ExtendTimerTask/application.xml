@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id = "timerTaskFactoryBean"
+      class="SpringCore.SpringTimerTasks.ExtendTimerTask.DemoTimerTask2"/>
+    <bean id="scheduledTimerTask"
+          class="org.springframework.scheduling.timer.ScheduledTimerTask">
+        <property name="period" value="3000"/>
+        <property name="timerTask" ref="timerTaskFactoryBean"/>
+    </bean>
+    <bean class="org.springframework.scheduling.timer.TimerFactoryBean">
+        <property name="scheduledTimerTasks">
+            <list>
+                <ref local="scheduledTimerTask"/>
+            </list>
+        </property>
+    </bean>
+</beans>

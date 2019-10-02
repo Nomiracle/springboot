@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+<util:constant id="manager" static-field="SpringCore.SpringUtilConstant.EmployeeDTO.MANAGER"/>
+<util:constant id= "director" static-field="SpringCore.SpringUtilConstant.EmployeeDTO.DIRECTOR"/>
+<bean name="employeeTypeWrapper" class="SpringCore.SpringUtilConstant.EmployeeTypeWrapper">
+    <property name="manager" ref="manager"/>
+    <property name="director" ref="director"/>
+</bean>
+    <bean name="employeeType" class="SpringCore.SpringUtilConstant.EmployeeDTO">
+        <constructor-arg name="designation" value="hahah"/>
+    </bean>
+</beans>

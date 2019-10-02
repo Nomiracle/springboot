@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="HelloWorldAppear:ear">
+    <output-path>$PROJECT_DIR$/HelloWorldApp-ear/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>HelloWorldAppear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="HelloWorldApp-ear-1.0-SNAPSHOT.ear">
+      <element id="artifact" artifact-name="HelloWorldAppear:ear exploded" />
+    </root>
+  </artifact>
+</component>
