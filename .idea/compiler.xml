@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CustomErrorHandler" />
+        <module name="Caching" />
         <module name="springbootdemo" />
         <module name="demo" />
         <module name="SpringBootHibernate" />
@@ -30,6 +31,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AsyncRestController" target="1.8" />
+      <module name="Caching" target="1.8" />
       <module name="CallableInterface" target="1.8" />
       <module name="CreateNonWebApp" target="1.8" />
       <module name="CrudOperations" target="1.8" />
@@ -56,6 +58,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AsyncRestController" options="-parameters" />
+      <module name="Caching" options="-parameters" />
       <module name="CallableInterface" options="-parameters" />
       <module name="CreateNonWebApp" options="-parameters" />
       <module name="CrudOperations" options="-parameters" />

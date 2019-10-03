@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AsyncRestController/AsyncRestController.iml" filepath="$PROJECT_DIR$/AsyncRestController/AsyncRestController.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Caching/Caching.iml" filepath="$PROJECT_DIR$/Caching/Caching.iml" />
       <module fileurl="file://$PROJECT_DIR$/CallableInterface/CallableInterface.iml" filepath="$PROJECT_DIR$/CallableInterface/CallableInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreateNonWebApp/CreateNonWebApp.iml" filepath="$PROJECT_DIR$/CreateNonWebApp/CreateNonWebApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/CrudOperations/CrudOperations.iml" filepath="$PROJECT_DIR$/CrudOperations/CrudOperations.iml" />

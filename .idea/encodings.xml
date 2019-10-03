@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AsyncRestController" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Caching" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CallableInterface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CreateNonWebApp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CrudOperations" charset="UTF-8" />

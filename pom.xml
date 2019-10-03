@@ -45,6 +45,7 @@
         <module>springbootdemo</module>
         <module>AsyncRestController</module>
         <module>CallableInterface</module>
+        <module>Caching</module>
     </modules>
 <dependencies>
 

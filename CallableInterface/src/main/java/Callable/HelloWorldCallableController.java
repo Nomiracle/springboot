@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
 public class HelloWorldCallableController {
-    @GetMapping(value="testCallable")
+    @GetMapping(value="/testCallable")
     public Callable<String>echoHello(){
         return ()->{
             Thread.sleep(ThreadLocalRandom.current().nextInt(5000));
