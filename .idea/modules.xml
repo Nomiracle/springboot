@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/RESTAPIExample/RESTAPIExample.iml" filepath="$PROJECT_DIR$/RESTAPIExample/RESTAPIExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/ResponseBodyEmitter/ResponseBodyEmitter.iml" filepath="$PROJECT_DIR$/ResponseBodyEmitter/ResponseBodyEmitter.iml" />
       <module fileurl="file://$PROJECT_DIR$/RestPostHeaders/RestPostHeaders.iml" filepath="$PROJECT_DIR$/RestPostHeaders/RestPostHeaders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RetryModule/RetryModule.iml" filepath="$PROJECT_DIR$/RetryModule/RetryModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-boot.iml" filepath="$PROJECT_DIR$/Spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot2AutoConfiguration/SpringBoot2AutoConfiguration.iml" filepath="$PROJECT_DIR$/SpringBoot2AutoConfiguration/SpringBoot2AutoConfiguration.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootHibernate/SpringBootHibernate.iml" filepath="$PROJECT_DIR$/SpringBootHibernate/SpringBootHibernate.iml" />

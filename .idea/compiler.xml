@@ -6,26 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Java8" />
         <module name="CustomErrorHandler" />
         <module name="Caching" />
-        <module name="springbootdemo" />
         <module name="demo" />
-        <module name="SpringBootHibernate" />
-        <module name="CreateNonWebApp" />
-        <module name="CallableInterface" />
+        <module name="RetryModule" />
+        <module name="HelloWorldApprws" />
+        <module name="ResponseBodyEmitter" />
         <module name="CrudOperations" />
         <module name="HelloWorldAppear" />
-        <module name="HelloWorldApprws" />
         <module name="LoggingSpringBoot" />
         <module name="RestPostHeaders" />
         <module name="spring" />
         <module name="HelloWorldAppservice" />
-        <module name="Java8" />
-        <module name="ResponseBodyEmitter" />
+        <module name="springbootdemo" />
+        <module name="AsyncRestController" />
+        <module name="CallableInterface" />
         <module name="learning" />
         <module name="HateoasExample" />
-        <module name="AsyncRestController" />
         <module name="RESTAPIExample" />
+        <module name="CreateNonWebApp" />
+        <module name="SpringBootHibernate" />
         <module name="SpringBoot2AutoConfiguration" />
       </profile>
     </annotationProcessing>
@@ -47,6 +48,7 @@
       <module name="ResponseBodyEmitter" target="1.8" />
       <module name="RESTAPIExample" target="1.8" />
       <module name="RestPostHeaders" target="1.8" />
+      <module name="RetryModule" target="1.8" />
       <module name="Spring" target="1.8" />
       <module name="spring" target="8" />
       <module name="Spring-boot" target="1.8" />
@@ -72,6 +74,7 @@
       <module name="RESTAPIExample" options="-parameters" />
       <module name="ResponseBodyEmitter" options="-parameters" />
       <module name="RestPostHeaders" options="-parameters" />
+      <module name="RetryModule" options="-parameters" />
       <module name="Spring" options="-parameters" />
       <module name="SpringBoot2AutoConfiguration" options="-parameters" />
       <module name="SpringBootHibernate" options="-parameters" />

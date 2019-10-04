@@ -46,6 +46,7 @@
         <module>AsyncRestController</module>
         <module>CallableInterface</module>
         <module>Caching</module>
+        <module>RetryModule</module>
     </modules>
 <dependencies>
 

@@ -6,6 +6,11 @@ public class Student {
     private @NotNull String id;
     private @NotNull String name;
     private @NotNull String clz;
+    public Student(String id,String name ,String clz){
+        this.id=id;
+        this.name=name;
+        this.clz=clz;
+    }
 
     public String getId() {
         return id;
