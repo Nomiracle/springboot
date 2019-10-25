@@ -47,6 +47,10 @@
         <module>CallableInterface</module>
         <module>Caching</module>
         <module>RetryModule</module>
+        <module>Security</module>
+        <module>Ehcache</module>
+        <module>Java</module>
+        <module>KMS_Generate_Request_Json</module>
     </modules>
 <dependencies>
 

@@ -5,19 +5,22 @@
     <file url="file://$PROJECT_DIR$/AsyncRestController" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Caching" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CallableInterface" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/CreateNonWebApp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CrudOperations" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CustomErrorHandler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ehcache" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HateoasExample" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HelloWorldApp-ear" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HelloWorldApp-rws" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HelloWorldApp-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java8" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/KMS_Generate_Request_Json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LoggingSpringBoot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RESTAPIExample" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ResponseBodyEmitter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RestPostHeaders" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/RetryModule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot2AutoConfiguration" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootHibernate" charset="UTF-8" />

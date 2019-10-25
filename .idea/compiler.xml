@@ -8,24 +8,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Java8" />
         <module name="CustomErrorHandler" />
-        <module name="Caching" />
+        <module name="HateoasExample" />
+        <module name="springbootdemo" />
         <module name="demo" />
         <module name="RetryModule" />
         <module name="HelloWorldApprws" />
-        <module name="ResponseBodyEmitter" />
+        <module name="Ehcache" />
         <module name="CrudOperations" />
         <module name="HelloWorldAppear" />
+        <module name="Java" />
         <module name="LoggingSpringBoot" />
         <module name="RestPostHeaders" />
+        <module name="KMS_Generate_Request_Json" />
         <module name="spring" />
         <module name="HelloWorldAppservice" />
-        <module name="springbootdemo" />
+        <module name="Security" />
         <module name="AsyncRestController" />
         <module name="CallableInterface" />
         <module name="learning" />
-        <module name="HateoasExample" />
+        <module name="Caching" />
         <module name="RESTAPIExample" />
-        <module name="CreateNonWebApp" />
+        <module name="ResponseBodyEmitter" />
         <module name="SpringBootHibernate" />
         <module name="SpringBoot2AutoConfiguration" />
       </profile>
@@ -38,19 +41,23 @@
       <module name="CrudOperations" target="1.8" />
       <module name="CustomErrorHandler" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="Ehcache" target="1.8" />
       <module name="HateoasExample" target="1.8" />
       <module name="HelloWorldAppear" target="1.8" />
       <module name="HelloWorldApprws" target="1.8" />
       <module name="HelloWorldAppservice" target="1.8" />
+      <module name="Java" target="1.8" />
       <module name="Java8" target="1.8" />
+      <module name="KMS_Generate_Request_Json" target="1.8" />
       <module name="learning" target="8" />
       <module name="LoggingSpringBoot" target="1.8" />
       <module name="ResponseBodyEmitter" target="1.8" />
       <module name="RESTAPIExample" target="1.8" />
       <module name="RestPostHeaders" target="1.8" />
       <module name="RetryModule" target="1.8" />
-      <module name="Spring" target="1.8" />
+      <module name="Security" target="1.8" />
       <module name="spring" target="8" />
+      <module name="Spring" target="1.8" />
       <module name="Spring-boot" target="1.8" />
       <module name="SpringBoot2AutoConfiguration" target="1.8" />
       <module name="springbootdemo" target="1.8" />
@@ -65,16 +72,20 @@
       <module name="CreateNonWebApp" options="-parameters" />
       <module name="CrudOperations" options="-parameters" />
       <module name="CustomErrorHandler" options="-parameters" />
+      <module name="Ehcache" options="-parameters" />
       <module name="HateoasExample" options="-parameters" />
       <module name="HelloWorldAppear" options="-parameters" />
       <module name="HelloWorldApprws" options="-parameters" />
       <module name="HelloWorldAppservice" options="-parameters" />
+      <module name="Java" options="-parameters" />
       <module name="Java8" options="-parameters" />
+      <module name="KMS_Generate_Request_Json" options="-parameters" />
       <module name="LoggingSpringBoot" options="-parameters" />
       <module name="RESTAPIExample" options="-parameters" />
       <module name="ResponseBodyEmitter" options="-parameters" />
       <module name="RestPostHeaders" options="-parameters" />
       <module name="RetryModule" options="-parameters" />
+      <module name="Security" options="-parameters" />
       <module name="Spring" options="-parameters" />
       <module name="SpringBoot2AutoConfiguration" options="-parameters" />
       <module name="SpringBootHibernate" options="-parameters" />

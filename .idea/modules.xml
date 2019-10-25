@@ -5,19 +5,22 @@
       <module fileurl="file://$PROJECT_DIR$/AsyncRestController/AsyncRestController.iml" filepath="$PROJECT_DIR$/AsyncRestController/AsyncRestController.iml" />
       <module fileurl="file://$PROJECT_DIR$/Caching/Caching.iml" filepath="$PROJECT_DIR$/Caching/Caching.iml" />
       <module fileurl="file://$PROJECT_DIR$/CallableInterface/CallableInterface.iml" filepath="$PROJECT_DIR$/CallableInterface/CallableInterface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CreateNonWebApp/CreateNonWebApp.iml" filepath="$PROJECT_DIR$/CreateNonWebApp/CreateNonWebApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/CrudOperations/CrudOperations.iml" filepath="$PROJECT_DIR$/CrudOperations/CrudOperations.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomErrorHandler/CustomErrorHandler.iml" filepath="$PROJECT_DIR$/CustomErrorHandler/CustomErrorHandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ehcache/Ehcache.iml" filepath="$PROJECT_DIR$/Ehcache/Ehcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/HateoasExample/HateoasExample.iml" filepath="$PROJECT_DIR$/HateoasExample/HateoasExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorldApp-ear/HelloWorldAppear.iml" filepath="$PROJECT_DIR$/HelloWorldApp-ear/HelloWorldAppear.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorldApp-rws/HelloWorldApprws.iml" filepath="$PROJECT_DIR$/HelloWorldApp-rws/HelloWorldApprws.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorldApp-service/HelloWorldAppservice.iml" filepath="$PROJECT_DIR$/HelloWorldApp-service/HelloWorldAppservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java8/Java8.iml" filepath="$PROJECT_DIR$/Java8/Java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KMS_Generate_Request_Json/KMS_Generate_Request_Json.iml" filepath="$PROJECT_DIR$/KMS_Generate_Request_Json/KMS_Generate_Request_Json.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoggingSpringBoot/LoggingSpringBoot.iml" filepath="$PROJECT_DIR$/LoggingSpringBoot/LoggingSpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/RESTAPIExample/RESTAPIExample.iml" filepath="$PROJECT_DIR$/RESTAPIExample/RESTAPIExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/ResponseBodyEmitter/ResponseBodyEmitter.iml" filepath="$PROJECT_DIR$/ResponseBodyEmitter/ResponseBodyEmitter.iml" />
       <module fileurl="file://$PROJECT_DIR$/RestPostHeaders/RestPostHeaders.iml" filepath="$PROJECT_DIR$/RestPostHeaders/RestPostHeaders.iml" />
       <module fileurl="file://$PROJECT_DIR$/RetryModule/RetryModule.iml" filepath="$PROJECT_DIR$/RetryModule/RetryModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Security/Security.iml" filepath="$PROJECT_DIR$/Security/Security.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-boot.iml" filepath="$PROJECT_DIR$/Spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot2AutoConfiguration/SpringBoot2AutoConfiguration.iml" filepath="$PROJECT_DIR$/SpringBoot2AutoConfiguration/SpringBoot2AutoConfiguration.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootHibernate/SpringBootHibernate.iml" filepath="$PROJECT_DIR$/SpringBootHibernate/SpringBootHibernate.iml" />
