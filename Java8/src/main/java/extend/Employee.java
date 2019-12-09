@@ -1,12 +1,13 @@
 package extend;
 
-import java.util.Objects;
+import java.io.Serializable;
 
-public class Employee{
+public class Employee implements Serializable {
 
     private String name;
     private Integer id,age;
     private String firstName,lastName;
+    private Department department;
     public Employee(int id,int age,String name){
         this.id = id;
         this.age=age;
@@ -17,6 +18,13 @@ public class Employee{
         this.age=age;
         this.firstName=firstName;
         this.lastName=lastName;
+    }
+
+    public Employee(int id, String firstName, String lastName, Department department) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.department = department;
     }
 
     public String getName() {
@@ -33,6 +41,14 @@ public class Employee{
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
     }
 
     public Integer getAge() {
