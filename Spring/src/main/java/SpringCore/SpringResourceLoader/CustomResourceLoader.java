@@ -5,6 +5,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 public class CustomResourceLoader implements ResourceLoaderAware {
 
@@ -21,7 +22,7 @@ public class CustomResourceLoader implements ResourceLoaderAware {
                 //"//howtodoinjava.com/readme.txt"                         //url
         );
         InputStream in = banner.getInputStream();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(in,"utf-8"));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));
         while(true){
             String line = reader.readLine();
             if(line == null)break;

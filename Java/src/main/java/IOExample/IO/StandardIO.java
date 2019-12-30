@@ -1,4 +1,4 @@
-package IO;
+package IOExample.IO;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,7 +11,7 @@ public class StandardIO {
         try{
             bufferedReader = new BufferedReader(
               new FileReader("D:\\work\\myproject\\springBoot\\" +
-                      "HelloWorldApp\\Java\\src\\main\\resources\\IO\\" +
+                      "HelloWorldApp\\Java\\src\\main\\resources\\IOExample.IO\\" +
                       "StandardIO\\data.txt")
             );
             while((sCurrentLine = bufferedReader.readLine())!=null){

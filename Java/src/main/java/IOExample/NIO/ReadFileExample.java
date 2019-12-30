@@ -1,4 +1,4 @@
-package NIO;
+package IOExample.NIO;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -8,7 +8,7 @@ import java.nio.channels.FileChannel;
 public class ReadFileExample {
     public static void main(String[] args) throws IOException {
         RandomAccessFile accessFile = new RandomAccessFile(
-              "D:\\work\\myproject\\springBoot\\HelloWorldApp\\Java\\src\\main\\resources\\IO\\StandardIO\\data.txt",
+              "D:\\work\\myproject\\springBoot\\HelloWorldApp\\Java\\src\\main\\resources\\IOExample.IO\\StandardIO\\data.txt",
                 "r"
         );
         FileChannel inChannel = accessFile.getChannel();
