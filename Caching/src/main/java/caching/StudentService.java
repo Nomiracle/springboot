@@ -14,6 +14,6 @@ public class StudentService {
         catch(InterruptedException e){
             e.printStackTrace();
         }
-        return new Student(id,"Sajal" ,"V");
+        return new Student(id,id + 1 ,id + 2);
     }
 }

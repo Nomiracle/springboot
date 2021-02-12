@@ -6,30 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Java8" />
+        <module name="EDTS" />
         <module name="CustomErrorHandler" />
-        <module name="HateoasExample" />
-        <module name="springbootdemo" />
-        <module name="demo" />
-        <module name="RetryModule" />
-        <module name="HelloWorldApprws" />
-        <module name="Ehcache" />
-        <module name="CrudOperations" />
-        <module name="HelloWorldAppear" />
+        <module name="DesignPattern" />
+        <module name="Caching" />
         <module name="Java" />
-        <module name="LoggingSpringBoot" />
+        <module name="demo" />
+        <module name="springbootdemo" />
+        <module name="ResponseBodyEmitter" />
+        <module name="SpringSecurity" />
+        <module name="SpringBootHibernate" />
+        <module name="Ehcache" />
+        <module name="HelloWorldApprws" />
+        <module name="HelloWorldAppear" />
+        <module name="CallableInterface" />
         <module name="RestPostHeaders" />
         <module name="KMS_Generate_Request_Json" />
         <module name="spring" />
         <module name="HelloWorldAppservice" />
-        <module name="Security" />
+        <module name="Java8" />
         <module name="AsyncRestController" />
-        <module name="CallableInterface" />
+        <module name="ServletTech" />
         <module name="learning" />
-        <module name="Caching" />
+        <module name="CrudOperations" />
+        <module name="HateoasExample" />
         <module name="RESTAPIExample" />
-        <module name="ResponseBodyEmitter" />
-        <module name="SpringBootHibernate" />
+        <module name="Security" />
+        <module name="RetryModule" />
+        <module name="LoggingSpringBoot" />
         <module name="SpringBoot2AutoConfiguration" />
       </profile>
     </annotationProcessing>
@@ -41,6 +45,8 @@
       <module name="CrudOperations" target="1.8" />
       <module name="CustomErrorHandler" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="DesignPattern" target="1.8" />
+      <module name="EDTS" target="1.8" />
       <module name="Ehcache" target="1.8" />
       <module name="HateoasExample" target="1.8" />
       <module name="HelloWorldAppear" target="1.8" />
@@ -56,12 +62,14 @@
       <module name="RestPostHeaders" target="1.8" />
       <module name="RetryModule" target="1.8" />
       <module name="Security" target="1.8" />
+      <module name="ServletTech" target="1.8" />
       <module name="spring" target="8" />
       <module name="Spring" target="1.8" />
       <module name="Spring-boot" target="1.8" />
       <module name="SpringBoot2AutoConfiguration" target="1.8" />
       <module name="springbootdemo" target="1.8" />
       <module name="SpringBootHibernate" target="1.8" />
+      <module name="SpringSecurity" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -72,6 +80,8 @@
       <module name="CreateNonWebApp" options="-parameters" />
       <module name="CrudOperations" options="-parameters" />
       <module name="CustomErrorHandler" options="-parameters" />
+      <module name="DesignPattern" options="-parameters" />
+      <module name="EDTS" options="-parameters" />
       <module name="Ehcache" options="-parameters" />
       <module name="HateoasExample" options="-parameters" />
       <module name="HelloWorldAppear" options="-parameters" />
@@ -86,9 +96,11 @@
       <module name="RestPostHeaders" options="-parameters" />
       <module name="RetryModule" options="-parameters" />
       <module name="Security" options="-parameters" />
+      <module name="ServletTech" options="-parameters" />
       <module name="Spring" options="-parameters" />
       <module name="SpringBoot2AutoConfiguration" options="-parameters" />
       <module name="SpringBootHibernate" options="-parameters" />
+      <module name="SpringSecurity" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="springbootdemo" options="-parameters" />
     </option>

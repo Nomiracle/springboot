@@ -51,6 +51,10 @@
         <module>Ehcache</module>
         <module>Java</module>
         <module>KMS_Generate_Request_Json</module>
+        <module>SpringSecurity</module>
+        <module>ServletTech</module>
+        <module>EDTS</module>
+        <module>designPattern</module>
     </modules>
 <dependencies>
 

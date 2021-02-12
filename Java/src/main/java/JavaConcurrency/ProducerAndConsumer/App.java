@@ -10,5 +10,6 @@ public class App {
         Thread producer = new Thread(new Producer(taskQueue,5));
         producer.start();
         consumer.start();
+        consumer.start();
     }
 }

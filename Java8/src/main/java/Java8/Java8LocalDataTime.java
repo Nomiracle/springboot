@@ -13,6 +13,7 @@ public class Java8LocalDataTime {
         LocalDate lastDate = localDate.with(TemporalAdjusters.lastDayOfMonth());
         System.out.println(lastDate);
 
+
         Duration duration = Duration.between(instant,Instant.now());
         System.out.println(duration);
         System.out.println(Period.between(localDate,lastDate));
@@ -41,6 +42,12 @@ public class Java8LocalDataTime {
                 .appendZoneOrOffsetId();
         DateTimeFormatter formatter = formatterBuilder.toFormatter();
         System.out.println(formatter.format(ZonedDateTime.now()));
+
+        DateTimeFormatterBuilder formatterBuilder1 = new DateTimeFormatterBuilder();
+        formatterBuilder1
+                .appendLiteral("-");
+        DateTimeFormatter formatter1 = formatterBuilder1.toFormatter();
+        System.out.println(formatter1);
 
     }
 }

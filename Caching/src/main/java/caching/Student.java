@@ -1,8 +1,9 @@
 package caching;
 
 import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 
-public class Student {
+public class Student implements Serializable {
     private @NotNull String id;
     private @NotNull String name;
     private @NotNull String clz;

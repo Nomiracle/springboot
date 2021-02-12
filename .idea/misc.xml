@@ -13,6 +13,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/CreateNonWebApp/pom.xml" />
+        <option value="$PROJECT_DIR$/EDTS/pom.xml" />
+        <option value="$PROJECT_DIR$/ServletTech/pom.xml" />
       </set>
     </option>
   </component>
